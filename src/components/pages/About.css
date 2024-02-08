@@ -1,0 +1,65 @@
+/* About.css */
+
+.about {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 50px; 
+    background: linear-gradient(to right, #090c0e, #848b87);
+}
+
+.about-text {
+    flex: 1;
+    text-align: center; 
+}
+
+.about-text h2 {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 15px;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+h4 {
+    color: #0ef;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 0.9s;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-box:hover {
+    background-color: #2980b9;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .about {
+        padding: 30px; 
+    }
+
+    .btn-box {
+        display: block; 
+        margin-top: 15px; 
+    }
+}
