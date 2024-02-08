@@ -11,6 +11,17 @@ const Project = () => {
                     <div className="portfolio-content">
                         <div className="row">
                             <div className="layer">
+                                <h5>Real Estate</h5>
+                                <p>Skills use: React js , React-icons, css</p>
+                                <a href="https://deepakkumar1212.github.io/realestate/">Link</a>
+                            </div>
+                        </div>
+                   </div>
+                   
+
+                    <div className="portfolio-content">
+                        <div className="row">
+                            <div className="layer">
                                 <h5>Tic Tac Toe</h5>
                                 <p>Skills use: HTML, CSS and JavaScript</p>
                                 <a href="https://deepakkumar1212.github.io/tiktak/">Link</a>

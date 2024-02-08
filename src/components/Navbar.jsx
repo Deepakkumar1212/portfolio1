@@ -9,7 +9,7 @@ function Navbar() {
     }
   return (
     <header>
-        <div id="brand"><Link>Portfolio</Link></div>
+        <div id="brand">Portfolio</div>
         <nav>
             <ul>
                 <li>
